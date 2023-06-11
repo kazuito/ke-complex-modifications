@@ -2,6 +2,6 @@
 
 ## Import
 
-To import rules, click the link below.
+To import rules, enter the url below on your browser.
 
-[import](karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/kazuito/ke-complex-modifications/main/rules.json)
+karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/kazuito/ke-complex-modifications/main/rules.json
