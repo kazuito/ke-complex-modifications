@@ -1,0 +1,24 @@
+{
+  "title": "Zarigani",
+  "rules": [
+    {
+      "description": "Change j to right arrow when control is pressed alone.",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": ["left_control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
