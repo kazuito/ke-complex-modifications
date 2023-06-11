@@ -2,7 +2,7 @@
   "title": "Zarigani",
   "rules": [
     {
-      "description": "Change j to right arrow when control is pressed alone.",
+      "description": "control + i,k,j,l -> arrow keys",
       "manipulators": [
         {
           "type": "basic",
