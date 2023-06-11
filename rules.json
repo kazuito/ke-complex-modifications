@@ -89,6 +89,40 @@
           ]
         }
       ]
+    },
+
+    {
+      "description": "control + u,o -> backspace/delete",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "mandatory": ["left_control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_or_backspace"
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": ["left_control"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "delete_forward"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
