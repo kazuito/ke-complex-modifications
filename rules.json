@@ -1,8 +1,8 @@
 {
-  "title": "Zarigani",
+  "title": "Zarigani Rules",
   "rules": [
     {
-      "description": "control + i,k,j,l -> arrow keys",
+      "description": "control + i, k, j, l -> arrow keys",
       "manipulators": [
         {
           "type": "basic",
@@ -90,9 +90,8 @@
         }
       ]
     },
-
     {
-      "description": "control + u,o -> backspace/delete",
+      "description": "control + u, o -> backspace, delete",
       "manipulators": [
         {
           "type": "basic",
